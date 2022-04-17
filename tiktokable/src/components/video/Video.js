@@ -23,7 +23,7 @@ function Video() {
         loop 
         onClick = {onVideoPress}
         ref = {videoRef}
-        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+        src="http://localhost:3000/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4827218a6db2ead3af01186c0bd67f0f7066d169/tiktok.mp4"
         type="video/mp4"/>
       <VideoFooter 
         username= "jdshah_010"
