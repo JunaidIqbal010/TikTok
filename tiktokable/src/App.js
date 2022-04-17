@@ -19,10 +19,10 @@ function App() {
     <div className="app">
       <div className="app_videos">
         {videos.map(
-            ({ image_url, description, song_name, likes, comments, shares }) => (
+            ({ image_url, username, description, song_name, likes, comments, shares }) => (
               <Video
                 video={image_url}
-                username= "junaid99"
+                username={username}
                 song={song_name}
                 likes={likes}
                 comments={comments}
